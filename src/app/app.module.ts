@@ -5,12 +5,12 @@ import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { ListadoDeHeroesComponent } from './listado-de-heroes/listado-de-heroes.component';
-import { HeroesService } from './heroes.service';
-import { HeroProfileComponent } from './hero-profile/hero-profile.component';
-import { SpinnerComponent } from './spinner/spinner.component';
-import { ModalPollComponent } from './modal-poll/modal-poll.component';
-import { CapitalizePipe } from './capitalize.pipe';
+import { ListadoDeHeroesComponent } from './componentes/listado-de-heroes/listado-de-heroes.component';
+import { HeroesService } from './services/heroes.service';
+import { HeroProfileComponent } from './componentes/hero-profile/hero-profile.component';
+import { SpinnerComponent } from './componentes/spinner/spinner.component';
+import { ModalPollComponent } from './componentes/modal-poll/modal-poll.component';
+import { CapitalizePipe } from './pipes/capitalize.pipe'; 
 
 @NgModule({
   declarations: [
